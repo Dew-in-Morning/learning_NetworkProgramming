@@ -21,11 +21,6 @@ public class Server {
             System.out.println(dp.getAddress().getHostAddress());
             System.out.println(dp.getPort());
             System.out.println("————————————————————————————————————————————");
-            if ("结束".equals(data)){
-                System.out.println("结束啦~");
-                ds.close();
-                break;
-            }
         }
     }
 }
