@@ -15,5 +15,6 @@ public class Client {
 
         dos.close();
         socket.close();
+
     }
 }
