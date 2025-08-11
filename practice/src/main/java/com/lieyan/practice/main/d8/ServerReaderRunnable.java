@@ -3,10 +3,10 @@ package com.lieyan.practice.main.d8;
 import java.io.*;
 import java.net.Socket;
 
-public class ServerReaderThread extends Thread {
+public class ServerReaderRunnable implements Runnable {
     private Socket socket;
 
-    public ServerReaderThread(Socket socket) {
+    public ServerReaderRunnable(Socket socket) {
         this.socket = socket;
     }
 
